@@ -10,6 +10,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import br.senai.sp.jandira.s_book.Components.UniversalScreen.DefaultButtonScreen
+import br.senai.sp.jandira.s_book.Components.UniversalScreen.GoogleScreen
+import br.senai.sp.jandira.s_book.Components.UniversalScreen.TextContinueScreen
 import br.senai.sp.jandira.s_book.ui.theme.SBOOKTheme
 
 class MainActivity : ComponentActivity() {
@@ -19,12 +22,14 @@ class MainActivity : ComponentActivity() {
             SBOOKTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-
+                    Greeting(name = "asas")
                 }
             }
         }
     }
 }
+
+
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
@@ -32,4 +37,12 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         text = "Hello $name!",
         modifier = modifier
     )
+
+    GoogleScreen()
+
+    DefaultButtonScreen(text = "Entrar") {
+        
+    }
 }
+
+
