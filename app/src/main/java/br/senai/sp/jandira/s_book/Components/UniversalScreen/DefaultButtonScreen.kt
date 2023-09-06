@@ -15,8 +15,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.RectangleShape
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 
 @Composable
 fun DefaultButtonScreen(
@@ -32,7 +36,14 @@ fun DefaultButtonScreen(
             .padding(start = 122.dp, top = 16.dp, end = 122.dp, bottom = 16.dp)
 //        horizontalArrangement = Arrangement.spacedBy(2.dp, Alignment.CenterHorizontally),
     ) {
-        Text(text = text)
+        Text(
+            text = text,
+            style = TextStyle(
+                fontSize = 16.sp,
+                fontWeight = FontWeight(700),
+                color = Color(0xFFFFFFFF),
+            )
+        )
 
     }
 

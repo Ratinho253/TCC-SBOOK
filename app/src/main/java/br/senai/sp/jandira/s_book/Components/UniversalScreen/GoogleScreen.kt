@@ -43,7 +43,6 @@ fun  GoogleScreen(){
                 .border(width = 1.dp, color = Color(0xFFCECECE))
                 .width(120.dp)
                 .height(42.dp)
-                .background(color = Color(0xFFFFFFFF))
         ) {
             Row(
                 horizontalArrangement = Arrangement.spacedBy(22.dp, Alignment.CenterHorizontally),
