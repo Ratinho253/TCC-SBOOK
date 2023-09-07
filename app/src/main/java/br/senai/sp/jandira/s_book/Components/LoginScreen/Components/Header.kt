@@ -39,7 +39,7 @@ fun Header(){
                     painter = painterResource(id = R.drawable.logo),
                     contentDescription = "",
                     modifier = Modifier
-                        .size(64.dp)
+                        .size(34.dp)
 
                 )
                 Spacer(modifier = Modifier.height(13.dp))
@@ -49,7 +49,7 @@ fun Header(){
                     horizontalAlignment = Alignment.CenterHorizontally,
                     modifier = Modifier
                         .fillMaxWidth()
-                        .height(190.dp),
+                        .height(90.dp),
                 ) {
                     Text(
                         text = "Olá",

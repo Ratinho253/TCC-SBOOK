@@ -2,6 +2,7 @@ package br.senai.sp.jandira.s_book.Components.UniversalScreen
 
 import androidx.compose.foundation.border
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -36,15 +37,6 @@ fun TextFildPasswordScreen(label : String, valor: String, aoMudar: (String) -> U
                 shape = RoundedCornerShape(size = 4.dp)
             ),
         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
-        leadingIcon = {
-            Icon(
-                painter = painterResource(
-                    id = R.drawable.olhosenha
-                ),
-                contentDescription = "",
-                tint = colorResource(id = R.color.teal_700)
-            )
-        }
     )
 }
 
