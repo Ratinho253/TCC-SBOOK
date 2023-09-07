@@ -39,7 +39,7 @@ fun DefaultButtonScreen(
         Text(
             text = text,
             style = TextStyle(
-                fontSize = 16.sp,
+                fontSize = 14.sp,
                 fontWeight = FontWeight(700),
                 color = Color(0xFFFFFFFF),
             )

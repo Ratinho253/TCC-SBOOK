@@ -20,6 +20,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import br.senai.sp.jandira.s_book.Components.UniversalScreen.TextBoxScreen
+import br.senai.sp.jandira.s_book.Components.UniversalScreen.TextFildPasswordScreen
 
 @Composable
 fun Form(){
@@ -42,19 +43,20 @@ fun Form(){
             horizontalAlignment = Alignment.CenterHorizontally,
             ) {
             TextBoxScreen(
-                label = "Seu email",
+                label = "Email",
                 valor = emailState,
                 aoMudar = {
                     emailState = it
                 }
             )
 
-            TextBoxScreen(
-                label = "Sua senha",
+
+            TextFildPasswordScreen(
+                label = "Senha" ,
                 valor = senhaState,
-                aoMudar = {
+                aoMudar ={
                     senhaState = it
-                },
+                }
             )
 
             Text(

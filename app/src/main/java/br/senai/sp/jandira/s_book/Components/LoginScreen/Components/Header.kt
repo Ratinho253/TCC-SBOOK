@@ -32,6 +32,7 @@ fun Header(){
             modifier = Modifier
                 .fillMaxWidth()
                 .height(150.dp)
+                .padding(5.dp)
         ) {
             Column(){
                 Image(
@@ -39,7 +40,7 @@ fun Header(){
                     contentDescription = "",
                     modifier = Modifier
                         .size(64.dp)
-                        .padding(2.dp)
+
                 )
                 Spacer(modifier = Modifier.height(13.dp))
 
@@ -48,7 +49,7 @@ fun Header(){
                     horizontalAlignment = Alignment.CenterHorizontally,
                     modifier = Modifier
                         .fillMaxWidth()
-                        .height(90.dp),
+                        .height(190.dp),
                 ) {
                     Text(
                         text = "Olá",

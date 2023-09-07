@@ -10,6 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import br.senai.sp.jandira.s_book.Components.LoginScreen.Screen.LoginScreen
 import br.senai.sp.jandira.s_book.Components.UniversalScreen.DefaultButtonScreen
 import br.senai.sp.jandira.s_book.Components.UniversalScreen.GoogleScreen
 import br.senai.sp.jandira.s_book.Components.UniversalScreen.TextContinueScreen
@@ -21,9 +22,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             SBOOKTheme {
                 // A surface container using the 'background' color from the theme
-                Surface(modifier = Modifier.fillMaxSize()) {
-                    Greeting(name = "asas")
-                }
+                LoginScreen()
             }
         }
     }
