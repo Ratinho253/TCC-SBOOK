@@ -1,4 +1,4 @@
-package br.senai.sp.jandira.s_book.Components.AddressScreen.Components
+package br.senai.sp.jandira.s_book.Components.addressScreen.Components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

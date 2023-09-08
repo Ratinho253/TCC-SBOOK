@@ -29,8 +29,6 @@ import br.senai.sp.jandira.s_book.R
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.graphics.painter.Painter
 
-
-
 @Composable
 fun BottonScreen(
     text: String,
@@ -46,7 +44,7 @@ fun BottonScreen(
             .width(300.dp)
             .height(48.dp)
             .background(Color(170, 98, 49), shape = RoundedCornerShape(size = 4.dp))
-            .padding(start = 30.dp, top = 13.dp),
+            .padding(start = 40.dp, top = 13.dp),
         horizontalArrangement = Arrangement.SpaceBetween,
         verticalAlignment = Alignment.CenterVertically,
     ) {

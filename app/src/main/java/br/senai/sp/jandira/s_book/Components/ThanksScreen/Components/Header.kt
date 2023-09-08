@@ -1,4 +1,4 @@
-package br.senai.sp.jandira.s_book.Components.AddressScreen.Components
+package br.senai.sp.jandira.s_book.Components.ThanksScreen.Components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
@@ -24,42 +24,44 @@ import br.senai.sp.jandira.s_book.R
 @Preview(showSystemUi = true)
 @Composable
 fun Header(){
+
     Column (
         modifier = Modifier
             .fillMaxWidth()
             .height(150.dp)
-            .padding(5.dp)
+            .padding(10.dp)
     ) {
         Column(){
             Image(
                 painter = painterResource(id = R.drawable.logo),
                 contentDescription = "",
                 modifier = Modifier
-                    .size(34.dp)
+                    .size(38.dp)
+
             )
             Spacer(modifier = Modifier.height(13.dp))
 
             Column(
                 verticalArrangement = Arrangement.spacedBy(12.dp, Alignment.Top),
-                horizontalAlignment = Alignment.CenterHorizontally,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(78.dp),
+                    .height(90.dp)
+                    .padding(start = 12.dp),
             ) {
                 Text(
-                    text = "Criar Conta ",
+                    text = "Recuperação de senha",
                     style = TextStyle(
-                        fontSize = 32.sp,
+                        fontSize = 16.sp,
                         fontWeight = FontWeight(800),
                         color = Color(0xFF000000),
                     )
                 )
 
                 Text(
-                    text = "Seja bem vindo",
+                    text = "Sua nova senha foi criada com sucesso.",
                     style = TextStyle(
-                        fontSize = 13.sp,
-                        fontWeight = FontWeight(500),
+                        fontSize = 12.sp,
+                        fontWeight = FontWeight(400),
                         color = Color(0xFF000000),
                     )
                 )

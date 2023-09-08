@@ -6,8 +6,9 @@ import androidx.activity.compose.setContent
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import br.senai.sp.jandira.s_book.Components.CreateContScreen.Screen.CreateContScreen
-import br.senai.sp.jandira.s_book.Components.LoginScreen.Screen.LoginScreen
+import br.senai.sp.jandira.s_book.Components.RediscoverPasswordScreen.Screen.RediscoverPasswordScreen
+import br.senai.sp.jandira.s_book.Components.ThanksScreen.Screen.ThanksScreen
+import br.senai.sp.jandira.s_book.Components.addressScreen.Screen.AddressScreen
 import br.senai.sp.jandira.s_book.Components.UniversalScreen.DefaultButtonScreen
 import br.senai.sp.jandira.s_book.Components.UniversalScreen.GoogleScreen
 import br.senai.sp.jandira.s_book.ui.theme.SBOOKTheme
@@ -19,7 +20,10 @@ class MainActivity : ComponentActivity() {
             SBOOKTheme {
                 // A surface container using the 'background' color from the theme
 //                LoginScreen()
-                CreateContScreen()
+//                CreateContScreen()
+//                AddressScreen()
+//                RediscoverPasswordScreen()
+                ThanksScreen()
             }
         }
     }
