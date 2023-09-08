@@ -1,11 +1,14 @@
 package br.senai.sp.jandira.s_book
 
 import android.os.Bundle
+import android.provider.ContactsContract.Intents.Insert
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import br.senai.sp.jandira.s_book.Components.ForgotPasswordScreen.Screen.ForgotPasswordScreen
+import br.senai.sp.jandira.s_book.Components.InsertCode.Screen.InsertCode
 import br.senai.sp.jandira.s_book.Components.RediscoverPasswordScreen.Screen.RediscoverPasswordScreen
 import br.senai.sp.jandira.s_book.Components.ThanksScreen.Screen.ThanksScreen
 import br.senai.sp.jandira.s_book.Components.addressScreen.Screen.AddressScreen
@@ -23,7 +26,9 @@ class MainActivity : ComponentActivity() {
 //                CreateContScreen()
 //                AddressScreen()
 //                RediscoverPasswordScreen()
-                ThanksScreen()
+//                ThanksScreen()
+//                ForgotPasswordScreen()
+                InsertCode()
             }
         }
     }
