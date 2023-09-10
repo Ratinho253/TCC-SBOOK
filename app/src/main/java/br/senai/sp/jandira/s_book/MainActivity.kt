@@ -7,6 +7,8 @@ import androidx.activity.compose.setContent
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import br.senai.sp.jandira.s_book.Components.CategoryScreen.Components.CategoryList
+import br.senai.sp.jandira.s_book.Components.CategoryScreen.Screen.CategoryScreen
 import br.senai.sp.jandira.s_book.Components.ForgotPasswordScreen.Screen.ForgotPasswordScreen
 import br.senai.sp.jandira.s_book.Components.InsertCode.Screen.InsertCode
 import br.senai.sp.jandira.s_book.Components.RediscoverPasswordScreen.Screen.RediscoverPasswordScreen
@@ -28,7 +30,9 @@ class MainActivity : ComponentActivity() {
 //                RediscoverPasswordScreen()
 //                ThanksScreen()
 //                ForgotPasswordScreen()
-                InsertCode()
+//                InsertCode()
+//                CategoryList()
+                CategoryScreen()
             }
         }
     }
