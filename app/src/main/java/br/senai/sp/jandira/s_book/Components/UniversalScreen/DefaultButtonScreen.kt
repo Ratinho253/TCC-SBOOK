@@ -24,11 +24,12 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun DefaultButtonScreen(
     text: String,
-    onClick: () -> Unit
+    onClick: () -> Unit,
+
 ) {
     Row(
         modifier = Modifier
-            .shadow(elevation = 4.dp, spotColor = Color(0x40000000), ambientColor = Color(0x40000000))
+            .shadow(elevation = 40.dp, spotColor = Color(0x40000000), ambientColor = Color(0x40000000))
             .width(300.dp)
             .height(48.dp)
             .background(Color(170,98,49), shape = RoundedCornerShape( size = 4.dp))

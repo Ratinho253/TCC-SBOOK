@@ -35,7 +35,7 @@ fun Header(){
                 painter = painterResource(id = R.drawable.logo),
                 contentDescription = "",
                 modifier = Modifier
-                    .size(38.dp)
+                    .size(52.dp)
 
             )
             Spacer(modifier = Modifier.height(13.dp))

@@ -26,12 +26,11 @@ fun CreateContScreen(){
         Column (
             modifier = Modifier
                 .fillMaxSize()
-                .fillMaxHeight()
                 .verticalScroll(
                     ScrollState(115)
                 )
             ,
-            verticalArrangement = Arrangement.SpaceAround,
+            verticalArrangement = Arrangement.SpaceEvenly,
             horizontalAlignment = Alignment.CenterHorizontally,
 
 

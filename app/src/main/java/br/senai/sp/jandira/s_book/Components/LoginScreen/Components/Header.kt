@@ -36,10 +36,10 @@ fun Header(){
         ) {
             Column(){
                 Image(
-                    painter = painterResource(id = R.drawable.logo),
+                    painter = painterResource(id = R.drawable.logoi),
                     contentDescription = "",
                     modifier = Modifier
-                        .size(34.dp)
+                        .size(52.dp)
 
                 )
                 Spacer(modifier = Modifier.height(13.dp))

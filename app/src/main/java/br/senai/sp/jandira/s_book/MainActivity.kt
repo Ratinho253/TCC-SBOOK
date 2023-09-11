@@ -9,8 +9,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import br.senai.sp.jandira.s_book.Components.CategoryScreen.Components.CategoryList
 import br.senai.sp.jandira.s_book.Components.CategoryScreen.Screen.CategoryScreen
+import br.senai.sp.jandira.s_book.Components.CreateContScreen.Screen.CreateContScreen
 import br.senai.sp.jandira.s_book.Components.ForgotPasswordScreen.Screen.ForgotPasswordScreen
 import br.senai.sp.jandira.s_book.Components.InsertCode.Screen.InsertCode
+import br.senai.sp.jandira.s_book.Components.LoginScreen.Screen.LoginScreen
 import br.senai.sp.jandira.s_book.Components.RediscoverPasswordScreen.Screen.RediscoverPasswordScreen
 import br.senai.sp.jandira.s_book.Components.ThanksScreen.Screen.ThanksScreen
 import br.senai.sp.jandira.s_book.Components.addressScreen.Screen.AddressScreen
@@ -25,14 +27,14 @@ class MainActivity : ComponentActivity() {
             SBOOKTheme {
                 // A surface container using the 'background' color from the theme
 //                LoginScreen()
-//                CreateContScreen()
+                CreateContScreen()
 //                AddressScreen()
 //                RediscoverPasswordScreen()
 //                ThanksScreen()
 //                ForgotPasswordScreen()
 //                InsertCode()
 //                CategoryList()
-                CategoryScreen()
+//                CategoryScreen()
             }
         }
     }

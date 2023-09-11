@@ -52,7 +52,7 @@ fun Header(){
                     text = "Recuperação de senha",
                     style = TextStyle(
                         fontSize = 16.sp,
-                        fontWeight = FontWeight(800),
+                        fontWeight = FontWeight(500),
                         color = Color(0xFF000000),
                     )
                 )

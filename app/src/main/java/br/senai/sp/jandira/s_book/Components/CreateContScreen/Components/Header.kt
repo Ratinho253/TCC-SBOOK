@@ -31,17 +31,10 @@ fun Header(){
     Column (
         modifier = Modifier
             .fillMaxWidth()
-            .height(150.dp)
+            .height(130.dp)
             .padding(5.dp)
     ) {
         Column(){
-            Image(
-                painter = painterResource(id = R.drawable.logo),
-                contentDescription = "",
-                modifier = Modifier
-                    .size(34.dp)
-
-            )
             Spacer(modifier = Modifier.height(13.dp))
 
             Column(
